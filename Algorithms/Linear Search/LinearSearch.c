@@ -1,5 +1,7 @@
 #include "LinearSearch.h"
 
+/* Known also as sequential search, time complexity: O(N), space complexity O(1) */
+/* Useful in case of random data */
 int linearSearch(const int* arr, int key, int size)
 {
     int ret = -1, i;

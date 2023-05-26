@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    char strs [][6] = {"cat", "apple", "dog"};
+    char* strs [6] = {"cat", "apple", "dog"};
     int arr [4] = {1, 4, 12, 25};
 
     if(linearSearch(arr, 25, 4) > -1)
